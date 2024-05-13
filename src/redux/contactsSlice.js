@@ -27,3 +27,4 @@ const contactsSlice = createSlice({
 export const { addContact, deleteContact, changeFilter } = contactsSlice.actions;
 
 export const reducerPhonebook = contactsSlice.reducer;
+
